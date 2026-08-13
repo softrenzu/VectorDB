@@ -3,12 +3,12 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Rooomtech"
-version = "0.3.0"
-description = "A small-team friendly pure-Python vector database for RAG and Dify integration"
+name = "rooom-vector"
+version = "0.4.0"
+description = "Small-team friendly vector database for RAG and Dify integration"
 readme = "README.md"
 requires-python = ">=3.11"
-license = {text = "Apache-2.0"}
+license = {file = "LICENSE"}
 authors = [{name = "ROOOMTECH"}]
 dependencies = [
   "fastapi>=0.115",
@@ -23,6 +23,7 @@ dev = ["pytest>=8.0"]
 gpu = ["cupy-cuda12x>=13.0; platform_system == 'Linux'"]
 
 [project.scripts]
+rooom-vector = "rooomtech_vector.api:run"
 rooomtech-vector = "rooomtech_vector.api:run"
 
 [tool.setuptools.packages.find]
