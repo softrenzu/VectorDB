@@ -2,11 +2,11 @@
 
 Rooomtech VectorDB is a Python vector database focused on RAG and Dify workloads. It combines modern retrieval patterns with a codebase designed to remain understandable and extensible by a very small team.
 
-Version: `0.2.0`
+Version: `0.3.0`
 
 ## What is different
 
-Rooomtech v0.2 is built around five differentiators:
+Rooomtech v0.3 is built around five differentiators:
 
 1. **Filter-aware Dynamic Index** — `auto` selects Exact or HNSW from the number of points remaining after namespace/metadata filtering. Small filtered sets stay exact; larger sets move to ANN.
 2. **Japanese-first Hybrid RAG** — Dense search + BM25 + CJK bigram tokenization without requiring MeCab or an external search server.
@@ -44,7 +44,7 @@ Rooomtech v0.2 is built around five differentiators:
 
 ## Not claimed yet
 
-Rooomtech v0.2 does **not** claim distributed production parity with Qdrant, Weaviate, or Milvus. These remain future work and are reported as unsupported by `/v1/capabilities`:
+Rooomtech v0.3 does **not** claim distributed production parity with Qdrant, Weaviate, or Milvus. These remain future work and are reported as unsupported by `/v1/capabilities`:
 
 - Multi-node sharding
 - Multi-node replication / consensus
@@ -155,6 +155,10 @@ pytest -q
 ```
 
 Current local validation: **8 tests passing**.
+
+## Enterprise support
+
+Paid maintenance, technical support, implementation, integration, upgrades, SLA options, custom development, and a commercial contract option are available from ROOOMTECH. Contact `tasuku.yoshioka@rooomtech.com`.
 
 ## License
 
