@@ -1,0 +1,12 @@
+services:
+  rooomtech-vector:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      ROOOMTECH_VECTOR_DB_PATH: /data/rooomtech_vector.db
+    volumes:
+      - rooomtech_vector_data:/data
+
+volumes:
+  rooomtech_vector_data:
