@@ -158,7 +158,7 @@ Current local validation: **8 tests passing**.
 
 ## Enterprise support
 
-Paid maintenance, technical support, implementation, integration, upgrades, SLA options, custom development, and a commercial contract option are available from ROOOMTECH. Contact `tasuku.yoshioka@rooomtech.com`.
+Paid maintenance, technical support, implementation, integration, upgrades, SLA options, custom development, and a commercial contract option are available from ROOOMTECH. Contact `support@rooomtech.com`.
 
 ## License
 
