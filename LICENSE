@@ -1,17 +1,22 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+ROOOMTECH Dual License Notice
+Applies to RooomVector version 0.4.0 and later
 
 Copyright 2026 ROOOMTECH
+Required Notice: Copyright 2026 ROOOMTECH
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+ROOOMTECH-authored code in this release is available under either:
 
-   http://www.apache.org/licenses/LICENSE-2.0
+1. PolyForm Noncommercial License 1.0.0
+https://polyformproject.org/licenses/noncommercial/1.0.0
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+The PolyForm Noncommercial terms at that URL are incorporated by reference and allow only uses permitted by those terms.
+
+2. A separate paid ROOOMTECH Commercial Software License.
+
+Business or commercial-purpose use, revenue-generating use, customer-facing commercial services, resale, commercial embedding, and other uses not permitted by PolyForm Noncommercial require a paid commercial license from ROOOMTECH.
+
+A standard commercial software license agreement is available. Paid maintenance, technical support, implementation, integration, upgrades, security support, SLA options, private builds, and custom development are also available.
+
+Contact: support@rooomtech.com
+
+Versions through 0.3.x remain under the license terms published with those releases. Third-party software remains under its respective licenses.
